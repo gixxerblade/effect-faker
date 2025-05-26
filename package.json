@@ -1,0 +1,17 @@
+{
+  "name": "effect-faker",
+  "module": "index.ts",
+  "description": "Generate composable and realistic mock data from TypeScript types using Effect Schema templates",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "effect": "^3.15.4"
+  }
+}
